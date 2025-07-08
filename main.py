@@ -11,7 +11,6 @@ def main():
 
     chatbot = ChatBot(openai_api_key=openai_api_key)
     chatbot.run()
-    
 
 if __name__ == "__main__":
     main()
