@@ -1,5 +1,6 @@
 from openai import OpenAI
 
+
 class ChatBot:
     def __init__(self, openai_api_key):
         self.client = OpenAI(api_key=openai_api_key)
